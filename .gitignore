@@ -1,0 +1,44 @@
+# Environment
+.env
+.env.local
+venv/
+__pycache__/
+*.pyc
+
+# YouTube OAuth Credentials (KEEP SECRET!)
+credentials/youtube_oauth.json
+credentials/youtube_token.json
+
+# Output files (generated videos)
+output/
+temp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+
+# Test/temp media files in root
+*.mp3
+*.mp4
+*.wav
+*.avi
+*.mov
+
+# Node (in case frontend is recreated)
+node_modules/
+.next/
+.vercel/

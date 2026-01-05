@@ -1,0 +1,44 @@
+# Core Framework
+fastapi>=0.109.0
+uvicorn>=0.27.0
+python-dotenv>=1.0.0
+
+# AI/ML APIs
+replicate>=0.23.0
+openai>=1.12.0
+elevenlabs>=1.0.0
+
+# Video Processing
+moviepy>=1.0.3
+Pillow>=10.3.0
+numpy>=1.26.0
+
+# Audio Processing
+pydub>=0.25.1
+
+# Scheduling & Background Tasks
+apscheduler>=3.10.4
+
+# Database
+sqlalchemy>=2.0.25
+aiosqlite>=0.19.0
+
+# HTTP Client
+httpx>=0.26.0
+aiofiles>=23.2.1
+
+# Utilities
+pydantic>=2.6.0
+pydantic-settings>=2.1.0
+loguru>=0.7.2
+
+# Real-time Trend Research (FREE)
+pytrends>=4.9.2
+feedparser>=6.0.10
+duckduckgo-search>=4.1.1
+google-api-python-client>=2.111.0
+
+# YouTube Upload (OAuth)
+google-auth>=2.25.0
+google-auth-oauthlib>=1.2.0
+google-auth-httplib2>=0.2.0
